@@ -1,2 +1,97 @@
 
 /* Your CSS Code here. */
+.green
+{
+	background-color:green;
+	padding: 10px 10px;
+}
+.pink
+{
+	background-color: lightpink;
+	padding:0px 0px 5px;
+}
+.first_1
+{
+	display:flex;
+	column-gap:10px;
+	padding:0px 10px;
+	background-color:darkcyan;
+	border:2px dotted black;
+}
+.second_1
+{
+	display:flex;
+	column-gap:10px;
+	padding:0px 10px;
+	background-color:purple;
+	border:2px dotted black;
+}
+.one
+{
+	display:grid;
+	grid-template-columns:30% 70%;
+	padding:10px;
+	height:150px;
+}
+.two
+{
+	display:grid;
+	grid-template-columns:70% 30%;
+	padding:0px 10px 10px;
+	height:150px;
+	
+}
+.first_2
+{
+	display:flex;
+	justify-content:center;
+	column-gap:10px;
+	padding:0px 10px;
+	background-color:black;
+}
+.second_2
+{
+	display:flex;
+	column-gap:10px;
+	background-color:skyblue;
+	border:2px dotted black;
+	padding:10px;
+}
+.diff{
+     background-color:orange;
+	  width:30%;
+	  padding:10px;
+	  column-gap:10px;
+	  display:flex;
+	border:2px dotted black;
+}
+.first_3
+{
+	display:flex;
+	column-gap:10px;
+	background-color:darkkhaki;
+	border:2px dotted black;
+	padding:10px
+}
+.second_3
+{
+	display:flex;
+	column-gap:10px;
+	background-color:darkgreen;
+	border:2px dotted black;
+	padding:10px;
+}
+.three{
+     background-color:black;
+     display:flex;
+	 margin-left:10px;
+	margin-right:10px;
+	 justify-content:space-around;
+}
+.yes
+{
+	display:grid;
+	grid-template-columns:50% 50%;
+	height:150px;
+	justify-content:space-around;	
+}
